@@ -70,3 +70,11 @@ ClassicEditor
 ## License
 
 Licensed under the terms of [GNU General Public License Version 2 or later](http://www.gnu.org/licenses/gpl.html). For full details about the license, please check the `LICENSE.md` file or [https://ckeditor.com/legal/ckeditor-oss-license](https://ckeditor.com/legal/ckeditor-oss-license).
+
+## To run this editor
+npm run build
+
+To add this to a project you need to include the following:
+import * as MarkDownEditor from 'path/to/this/ckeditor5-build-classic';
+
+then you can use it however you like.
